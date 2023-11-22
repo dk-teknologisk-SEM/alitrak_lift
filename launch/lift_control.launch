@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node pkg="alitrak_lift" name="lift_control_node" type="lift_control.py" output="screen">
+		<rosparam file="$(find alitrak_lift)/config/lift.yaml" command="load"/>
+	</node>
+
+</launch>

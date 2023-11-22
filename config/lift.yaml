@@ -1,0 +1,12 @@
+api_url: http://10.10.1.45
+lift_motor_raise: 4 #Port number
+lift_motor_lower: 5 #Port number
+raise_direction_val: 0 #Up
+lower_direction_val: 1 #Down
+# sensor_front_power: 2 
+# sensor_front_input: 0 
+# sensor_rear_power: 3 
+# sensor_rear_input: 1 
+max_raise_time: 10 # seconds
+max_lower_time: 4 # seconds
+# sensor_data_rate: 5 #hz
